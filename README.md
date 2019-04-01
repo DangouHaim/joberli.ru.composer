@@ -1,4 +1,6 @@
-2.6
-===
+# Joberli.ru
 
-A Symfony project created on April 14, 2015, 1:36 pm.
+## Repositories
+
+Joberli.ru - main
+Joberli.ru.composer - composer components
