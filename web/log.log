@@ -1,0 +1,14 @@
+[08-Jul-2018 23:23:53 Europe/Moscow] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\ResourceNotFoundException in /home/a0217392/domains/joberli.com/app/cache/prod/appProdUrlMatcher.php:804
+Stack trace:
+#0 /home/a0217392/domains/joberli.com/app/cache/prod/classes.php(1399): appProdUrlMatcher->match('/favicon.ico')
+#1 /home/a0217392/domains/joberli.com/app/cache/prod/classes.php(1275): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/a0217392/domains/joberli.com/app/cache/prod/classes.php(2434): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/a0217392/domains/joberli.com/app/cache/prod/classes.php(2223): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponse in /home/a0217392/domains/joberli.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
+[08-Jul-2018 23:24:52 Europe/Moscow] PHP Fatal error:  Uncaught Symfony\Component\Routing\Exception\ResourceNotFoundException in /home/a0217392/domains/joberli.com/app/cache/prod/appProdUrlMatcher.php:804
+Stack trace:
+#0 /home/a0217392/domains/joberli.com/app/cache/prod/classes.php(1399): appProdUrlMatcher->match('/favicon.ico')
+#1 /home/a0217392/domains/joberli.com/app/cache/prod/classes.php(1275): Symfony\Component\Routing\Matcher\UrlMatcher->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#2 /home/a0217392/domains/joberli.com/app/cache/prod/classes.php(2434): Symfony\Component\Routing\Router->matchRequest(Object(Symfony\Component\HttpFoundation\Request))
+#3 [internal function]: Symfony\Component\HttpKernel\EventListener\RouterListener->onKernelRequest(Object(Symfony\Component\HttpKernel\Event\GetResponseEvent), 'kernel.request', Object(Symfony\Component\EventDispatcher\ContainerAwareEventDispatcher))
+#4 /home/a0217392/domains/joberli.com/app/cache/prod/classes.php(2223): call_user_func(Array, Object(Symfony\Component\HttpKernel\Event\GetResponse in /home/a0217392/domains/joberli.com/vendor/doctrine/dbal/lib/Doctrine/DBAL/Driver/AbstractMySQLDriver.php on line 103
