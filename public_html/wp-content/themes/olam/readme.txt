@@ -1,1 +1,0 @@
-Olam is an Easy Digital Downloads plugin compatible WordPress theme. This theme is used to create digital stores to sell and download digital products like icons, music, videos etc.
